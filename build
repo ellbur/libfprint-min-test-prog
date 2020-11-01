@@ -1,0 +1,20 @@
+#!/bin/zsh
+
+gcc -o test \
+    main.c \
+    ../lxc-fs/home/ubuntu/libfprint/examples/storage.c \
+    ../lxc-fs/home/ubuntu/libfprint/examples/utilities.c \
+    -std=c99 \
+    -I \
+    ../lxc-fs/usr/include/libfprint-2 \
+    -I \
+    ../lxc-fs/usr/include/glib-2.0 \
+    -I \
+    ../lxc-fs/usr/lib/x86_64-linux-gnu/glib-2.0/include \
+    -L \
+    ../lxc-fs/usr/lib/x86_64-linux-gnu \
+    -lfprint-2 \
+    -lglib-2.0 \
+    -lgio-2.0 \
+    -lgobject-2.0
+

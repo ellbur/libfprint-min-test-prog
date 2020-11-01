@@ -1,0 +1,6 @@
+-I
+../lxc-fs/usr/include/libfprint-2
+-I
+../lxc-fs/usr/include/glib-2.0
+-I
+../lxc-fs/usr/lib/x86_64-linux-gnu/glib-2.0/include

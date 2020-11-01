@@ -1,0 +1,273 @@
+This program will enroll the selected finger, unconditionally overwriting any print for the same finger that was enrolled previously. If you want to continue, press enter, otherwise hit Ctrl+C
+Choose the finger to enroll:
+  [0] left thumb
+  [1] left index
+  [2] left middle
+  [3] left ring
+  [4] left little
+  [5] right thumb
+  [6] right index
+  [7] right middle
+  [8] right ring
+  [9] right little
+> (process:57845): libfprint-context-DEBUG: 20:11:00.951: No driver found for USB device 1D6B:0003
+(process:57845): libfprint-context-DEBUG: 20:11:00.952: No driver found for USB device 0B97:7772
+(process:57845): libfprint-context-DEBUG: 20:11:00.952: No driver found for USB device 0B97:7761
+(process:57845): libfprint-context-DEBUG: 20:11:00.952: No driver found for USB device 8087:0A2B
+(process:57845): libfprint-context-DEBUG: 20:11:00.952: No driver found for USB device 056A:0157
+(process:57845): libfprint-context-DEBUG: 20:11:00.952: No driver found for USB device 04F3:2256
+(process:57845): libfprint-context-DEBUG: 20:11:00.952: No driver found for USB device 0BDA:5783
+(process:57845): libfprint-context-DEBUG: 20:11:00.952: No driver found for USB device 1D6B:0002
+Selected device 0 (Validity VFS0050) claimed by vfs0050 driver
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.066: [vfs0050] SSM_STATES entering state 0
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.088: [vfs0050] SSM_STATES entering state 1
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.108: [vfs0050] SSM_STATES entering state 2
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.129: [vfs0050] SSM_STATES entering state 3
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.129: [vfs0050] SUBSM1_STATES entering state 0
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.129: [vfs0050] SUBSM1_STATES entering state 1
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.129: [vfs0050] SUBSM1_STATES entering state 2
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.150: [vfs0050] SUBSM1_STATES completed successfully
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.150: [vfs0050] SSM_STATES entering state 4
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.150: [vfs0050] SUBSM2_STATES entering state 0
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.150: [vfs0050] SUBSM2_STATES entering state 1
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.150: [vfs0050] SUBSM2_STATES entering state 2
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.151: [vfs0050] SUBSM2_STATES entering state 3
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.153: [vfs0050] SUBSM2_STATES entering state 4
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.156: [vfs0050] SUBSM2_STATES entering state 5
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.176: [vfs0050] SUBSM2_STATES entering state 6
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.176: [vfs0050] SUBSM1_STATES entering state 0
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.176: [vfs0050] SUBSM1_STATES entering state 1
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.177: [vfs0050] SUBSM1_STATES entering state 2
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.197: [vfs0050] SUBSM1_STATES completed successfully
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.197: [vfs0050] SUBSM2_STATES completed successfully
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.197: [vfs0050] SSM_STATES entering state 5
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.197: [vfs0050] SSM_STATES completed successfully
+(process:57845): libfprint-image_device-DEBUG: 20:11:01.197: Image device open completed
+(process:57845): libfprint-device-DEBUG: 20:11:01.197: Device reported open completion
+(process:57845): libfprint-device-DEBUG: 20:11:01.197: Completing action FPI_DEVICE_ACTION_OPEN in idle!
+Opened device. It's now time to enroll your finger.
+
+You will need to successfully scan your left thumb finger 5 times to complete the process.
+
+Scan your finger now.
+(process:57845): libfprint-image_device-DEBUG: 20:11:01.202: Activating image device
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.202: [vfs0050] SSM_STATES entering state 0
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.223: [vfs0050] SSM_STATES entering state 1
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.243: [vfs0050] SSM_STATES entering state 2
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.264: [vfs0050] SSM_STATES entering state 3
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.264: [vfs0050] SUBSM1_STATES entering state 0
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.264: [vfs0050] SUBSM1_STATES entering state 1
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.264: [vfs0050] SUBSM1_STATES entering state 2
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.284: [vfs0050] SUBSM1_STATES completed successfully
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.284: [vfs0050] SSM_STATES entering state 4
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.284: [vfs0050] SUBSM2_STATES entering state 0
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.284: [vfs0050] SUBSM2_STATES entering state 1
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.285: [vfs0050] SUBSM2_STATES entering state 2
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.285: [vfs0050] SUBSM2_STATES entering state 3
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.287: [vfs0050] SUBSM2_STATES entering state 4
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.288: [vfs0050] SUBSM2_STATES entering state 5
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.308: [vfs0050] SUBSM2_STATES entering state 6
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.308: [vfs0050] SUBSM1_STATES entering state 0
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.308: [vfs0050] SUBSM1_STATES entering state 1
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.308: [vfs0050] SUBSM1_STATES entering state 2
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.329: [vfs0050] SUBSM1_STATES completed successfully
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.329: [vfs0050] SUBSM2_STATES completed successfully
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.329: [vfs0050] SSM_STATES entering state 5
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.329: [vfs0050] SUBSM2_STATES entering state 0
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.329: [vfs0050] SUBSM2_STATES entering state 1
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.329: [vfs0050] SUBSM2_STATES entering state 2
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.331: [vfs0050] SUBSM2_STATES entering state 3
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.332: [vfs0050] SUBSM2_STATES entering state 4
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.336: [vfs0050] SUBSM2_STATES entering state 5
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.357: [vfs0050] SUBSM2_STATES entering state 6
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.357: [vfs0050] SUBSM2_STATES completed successfully
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.357: [vfs0050] SSM_STATES entering state 6
+(process:57845): libfprint-image_device-DEBUG: 20:11:01.357: Image device activation completed
+(process:57845): libfprint-image_device-DEBUG: 20:11:01.357: Image device internal state change from FPI_IMAGE_DEVICE_STATE_AWAIT_FINGER_ON to FPI_IMAGE_DEVICE_STATE_AWAIT_FINGER_ON
+(process:57845): libfprint-SSM-DEBUG: 20:11:01.358: [vfs0050] SSM_STATES entering state 7
+(process:57845): libfprint-SSM-DEBUG: 20:11:04.092: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-image_device-DEBUG: 20:11:04.092: Image device reported finger status: on
+(process:57845): libfprint-image_device-DEBUG: 20:11:04.092: Image device internal state change from FPI_IMAGE_DEVICE_STATE_AWAIT_FINGER_ON to FPI_IMAGE_DEVICE_STATE_CAPTURE
+(process:57845): libfprint-SSM-DEBUG: 20:11:04.178: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:04.266: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:04.355: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:04.443: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:04.531: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:04.619: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:04.708: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:04.796: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:04.884: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:04.973: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:05.061: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:05.149: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:05.237: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:05.274: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:05.375: [vfs0050] SSM_STATES entering state 9
+(process:57845): libfprint-image_device-DEBUG: 20:11:05.376: Reporting retry during enroll
+(process:57845): libfprint-device-DEBUG: 20:11:05.376: Device reported enroll progress, reported 0 of 5 have been completed
+(process:57845): libfprint-image_device-DEBUG: 20:11:05.376: Image device internal state change from FPI_IMAGE_DEVICE_STATE_CAPTURE to FPI_IMAGE_DEVICE_STATE_AWAIT_FINGER_OFF
+(process:57845): libfprint-image_device-DEBUG: 20:11:05.376: Image device reported finger status: off
+(process:57845): libfprint-image_device-DEBUG: 20:11:05.376: Image device internal state change from FPI_IMAGE_DEVICE_STATE_AWAIT_FINGER_OFF to FPI_IMAGE_DEVICE_STATE_AWAIT_FINGER_ON
+(process:57845): libfprint-SSM-DEBUG: 20:11:05.477: [vfs0050] SSM_STATES entering state 10
+(process:57845): libfprint-SSM-DEBUG: 20:11:05.477: [vfs0050] SUBSM2_STATES entering state 0
+(process:57845): libfprint-SSM-DEBUG: 20:11:05.478: [vfs0050] SUBSM2_STATES entering state 1
+(process:57845): libfprint-SSM-DEBUG: 20:11:05.478: [vfs0050] SUBSM2_STATES entering state 2
+(process:57845): libfprint-SSM-DEBUG: 20:11:05.478: [vfs0050] SUBSM2_STATES entering state 0
+(process:57845): libfprint-SSM-DEBUG: 20:11:05.478: [vfs0050] SUBSM2_STATES entering state 1
+(process:57845): libfprint-SSM-DEBUG: 20:11:05.478: [vfs0050] SUBSM2_STATES entering state 2
+(process:57845): libfprint-SSM-DEBUG: 20:11:05.480: [vfs0050] SUBSM2_STATES entering state 3
+(process:57845): libfprint-SSM-DEBUG: 20:11:05.481: [vfs0050] SUBSM2_STATES entering state 4
+(process:57845): libfprint-SSM-DEBUG: 20:11:05.484: [vfs0050] SUBSM2_STATES entering state 5
+(process:57845): libfprint-SSM-DEBUG: 20:11:05.504: [vfs0050] SUBSM2_STATES entering state 6
+(process:57845): libfprint-SSM-DEBUG: 20:11:05.505: [vfs0050] SUBSM1_STATES entering state 0
+(process:57845): libfprint-SSM-DEBUG: 20:11:05.505: [vfs0050] SUBSM1_STATES entering state 1
+(process:57845): libfprint-SSM-DEBUG: 20:11:05.505: [vfs0050] SUBSM1_STATES entering state 2
+(process:57845): libfprint-SSM-DEBUG: 20:11:05.526: [vfs0050] SUBSM1_STATES completed successfully
+(process:57845): libfprint-SSM-DEBUG: 20:11:05.526: [vfs0050] SUBSM2_STATES completed successfully
+(process:57845): libfprint-SSM-DEBUG: 20:11:05.526: [vfs0050] SSM_STATES entering state 11
+(process:57845): libfprint-SSM-DEBUG: 20:11:05.926: [vfs0050] SSM_STATES entering state 5
+(process:57845): libfprint-SSM-DEBUG: 20:11:05.927: [vfs0050] SUBSM2_STATES entering state 0
+(process:57845): libfprint-SSM-DEBUG: 20:11:05.927: [vfs0050] SUBSM2_STATES entering state 1
+(process:57845): libfprint-SSM-DEBUG: 20:11:05.928: [vfs0050] SUBSM2_STATES entering state 2
+(process:57845): libfprint-SSM-DEBUG: 20:11:05.929: [vfs0050] SUBSM2_STATES entering state 3
+(process:57845): libfprint-SSM-DEBUG: 20:11:05.931: [vfs0050] SUBSM2_STATES entering state 4
+(process:57845): libfprint-SSM-DEBUG: 20:11:05.932: [vfs0050] SUBSM2_STATES entering state 5
+(process:57845): libfprint-SSM-DEBUG: 20:11:05.953: [vfs0050] SUBSM2_STATES entering state 6
+(process:57845): libfprint-SSM-DEBUG: 20:11:05.953: [vfs0050] SUBSM2_STATES completed successfully
+(process:57845): libfprint-SSM-DEBUG: 20:11:05.953: [vfs0050] SSM_STATES entering state 6
+(process:57845): libfprint-SSM-DEBUG: 20:11:05.953: [vfs0050] SSM_STATES entering state 7
+(process:57845): libfprint-SSM-DEBUG: 20:11:07.660: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-image_device-DEBUG: 20:11:07.660: Image device reported finger status: on
+(process:57845): libfprint-image_device-DEBUG: 20:11:07.660: Image device internal state change from FPI_IMAGE_DEVICE_STATE_AWAIT_FINGER_ON to FPI_IMAGE_DEVICE_STATE_CAPTURE
+(process:57845): libfprint-SSM-DEBUG: 20:11:07.748: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:07.836: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:07.925: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:08.013: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:08.101: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:08.190: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:08.278: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:08.366: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:08.454: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:08.543: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:08.610: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:08.710: [vfs0050] SSM_STATES entering state 9
+(process:57845): libfprint-image_device-DEBUG: 20:11:08.711: Reporting retry during enroll
+(process:57845): libfprint-device-DEBUG: 20:11:08.711: Device reported enroll progress, reported 0 of 5 have been completed
+(process:57845): libfprint-image_device-DEBUG: 20:11:08.711: Image device internal state change from FPI_IMAGE_DEVICE_STATE_CAPTURE to FPI_IMAGE_DEVICE_STATE_AWAIT_FINGER_OFF
+(process:57845): libfprint-image_device-DEBUG: 20:11:08.711: Image device reported finger status: off
+(process:57845): libfprint-image_device-DEBUG: 20:11:08.711: Image device internal state change from FPI_IMAGE_DEVICE_STATE_AWAIT_FINGER_OFF to FPI_IMAGE_DEVICE_STATE_AWAIT_FINGER_ON
+(process:57845): libfprint-SSM-DEBUG: 20:11:08.812: [vfs0050] SSM_STATES entering state 10
+(process:57845): libfprint-SSM-DEBUG: 20:11:08.812: [vfs0050] SUBSM2_STATES entering state 0
+(process:57845): libfprint-SSM-DEBUG: 20:11:08.812: [vfs0050] SUBSM2_STATES entering state 1
+(process:57845): libfprint-SSM-DEBUG: 20:11:08.813: [vfs0050] SUBSM2_STATES entering state 2
+(process:57845): libfprint-SSM-DEBUG: 20:11:08.813: [vfs0050] SUBSM2_STATES entering state 0
+(process:57845): libfprint-SSM-DEBUG: 20:11:08.813: [vfs0050] SUBSM2_STATES entering state 1
+(process:57845): libfprint-SSM-DEBUG: 20:11:08.813: [vfs0050] SUBSM2_STATES entering state 2
+(process:57845): libfprint-SSM-DEBUG: 20:11:08.814: [vfs0050] SUBSM2_STATES entering state 3
+(process:57845): libfprint-SSM-DEBUG: 20:11:08.816: [vfs0050] SUBSM2_STATES entering state 4
+(process:57845): libfprint-SSM-DEBUG: 20:11:08.820: [vfs0050] SUBSM2_STATES entering state 5
+(process:57845): libfprint-SSM-DEBUG: 20:11:08.841: [vfs0050] SUBSM2_STATES entering state 6
+(process:57845): libfprint-SSM-DEBUG: 20:11:08.841: [vfs0050] SUBSM1_STATES entering state 0
+(process:57845): libfprint-SSM-DEBUG: 20:11:08.841: [vfs0050] SUBSM1_STATES entering state 1
+(process:57845): libfprint-SSM-DEBUG: 20:11:08.842: [vfs0050] SUBSM1_STATES entering state 2
+(process:57845): libfprint-SSM-DEBUG: 20:11:08.862: [vfs0050] SUBSM1_STATES completed successfully
+(process:57845): libfprint-SSM-DEBUG: 20:11:08.862: [vfs0050] SUBSM2_STATES completed successfully
+(process:57845): libfprint-SSM-DEBUG: 20:11:08.862: [vfs0050] SSM_STATES entering state 11
+(process:57845): libfprint-SSM-DEBUG: 20:11:09.263: [vfs0050] SSM_STATES entering state 5
+(process:57845): libfprint-SSM-DEBUG: 20:11:09.263: [vfs0050] SUBSM2_STATES entering state 0
+(process:57845): libfprint-SSM-DEBUG: 20:11:09.264: [vfs0050] SUBSM2_STATES entering state 1
+(process:57845): libfprint-SSM-DEBUG: 20:11:09.264: [vfs0050] SUBSM2_STATES entering state 2
+(process:57845): libfprint-SSM-DEBUG: 20:11:09.266: [vfs0050] SUBSM2_STATES entering state 3
+(process:57845): libfprint-SSM-DEBUG: 20:11:09.267: [vfs0050] SUBSM2_STATES entering state 4
+(process:57845): libfprint-SSM-DEBUG: 20:11:09.272: [vfs0050] SUBSM2_STATES entering state 5
+(process:57845): libfprint-SSM-DEBUG: 20:11:09.293: [vfs0050] SUBSM2_STATES entering state 6
+(process:57845): libfprint-SSM-DEBUG: 20:11:09.293: [vfs0050] SUBSM2_STATES completed successfully
+(process:57845): libfprint-SSM-DEBUG: 20:11:09.293: [vfs0050] SSM_STATES entering state 6
+(process:57845): libfprint-SSM-DEBUG: 20:11:09.294: [vfs0050] SSM_STATES entering state 7
+(process:57845): libfprint-SSM-DEBUG: 20:11:13.888: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-image_device-DEBUG: 20:11:13.888: Image device reported finger status: on
+(process:57845): libfprint-image_device-DEBUG: 20:11:13.888: Image device internal state change from FPI_IMAGE_DEVICE_STATE_AWAIT_FINGER_ON to FPI_IMAGE_DEVICE_STATE_CAPTURE
+(process:57845): libfprint-SSM-DEBUG: 20:11:13.976: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:14.064: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:14.152: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:14.241: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:14.329: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:14.417: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:14.506: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:14.594: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:14.682: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:14.770: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:14.859: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:14.947: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:15.036: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:15.123: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:15.212: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:15.300: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:15.388: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:15.477: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:15.565: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:15.654: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:15.741: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:15.830: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:15.918: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:16.007: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:16.095: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:16.183: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:16.271: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:16.359: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:16.448: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:16.536: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:16.625: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:16.712: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:16.801: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:16.889: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:16.977: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:17.066: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:17.154: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:17.242: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:17.330: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:17.419: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:17.507: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:17.595: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:17.683: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:17.772: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:17.860: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:17.948: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:18.036: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:18.125: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:18.213: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:18.215: [vfs0050] SSM_STATES entering state 8
+(process:57845): libfprint-SSM-DEBUG: 20:11:18.315: [vfs0050] SSM_STATES entering state 9
+(process:57845): libfprint-image_device-DEBUG: 20:11:18.316: Reporting retry during enroll
+(process:57845): libfprint-device-DEBUG: 20:11:18.316: Device reported enroll progress, reported 0 of 5 have been completed
+(process:57845): libfprint-image_device-DEBUG: 20:11:18.316: Image device internal state change from FPI_IMAGE_DEVICE_STATE_CAPTURE to FPI_IMAGE_DEVICE_STATE_AWAIT_FINGER_OFF
+(process:57845): libfprint-image_device-DEBUG: 20:11:18.316: Image device reported finger status: off
+(process:57845): libfprint-image_device-DEBUG: 20:11:18.316: Image device internal state change from FPI_IMAGE_DEVICE_STATE_AWAIT_FINGER_OFF to FPI_IMAGE_DEVICE_STATE_AWAIT_FINGER_ON
+(process:57845): libfprint-SSM-DEBUG: 20:11:18.417: [vfs0050] SSM_STATES entering state 10
+(process:57845): libfprint-SSM-DEBUG: 20:11:18.417: [vfs0050] SUBSM2_STATES entering state 0
+(process:57845): libfprint-SSM-DEBUG: 20:11:18.417: [vfs0050] SUBSM2_STATES entering state 1
+(process:57845): libfprint-SSM-DEBUG: 20:11:18.417: [vfs0050] SUBSM2_STATES entering state 2
+(process:57845): libfprint-SSM-DEBUG: 20:11:18.417: [vfs0050] SUBSM2_STATES entering state 0
+(process:57845): libfprint-SSM-DEBUG: 20:11:18.418: [vfs0050] SUBSM2_STATES entering state 1
+(process:57845): libfprint-SSM-DEBUG: 20:11:18.418: [vfs0050] SUBSM2_STATES entering state 2
+(process:57845): libfprint-SSM-DEBUG: 20:11:18.419: [vfs0050] SUBSM2_STATES entering state 3
+(process:57845): libfprint-SSM-DEBUG: 20:11:18.420: [vfs0050] SUBSM2_STATES entering state 4
+(process:57845): libfprint-SSM-DEBUG: 20:11:18.424: [vfs0050] SUBSM2_STATES entering state 5
+(process:57845): libfprint-SSM-DEBUG: 20:11:18.444: [vfs0050] SUBSM2_STATES entering state 6
+(process:57845): libfprint-SSM-DEBUG: 20:11:18.445: [vfs0050] SUBSM1_STATES entering state 0
+(process:57845): libfprint-SSM-DEBUG: 20:11:18.445: [vfs0050] SUBSM1_STATES entering state 1
+(process:57845): libfprint-SSM-DEBUG: 20:11:18.446: [vfs0050] SUBSM1_STATES entering state 2
+(process:57845): libfprint-SSM-DEBUG: 20:11:18.466: [vfs0050] SUBSM1_STATES completed successfully
+(process:57845): libfprint-SSM-DEBUG: 20:11:18.466: [vfs0050] SUBSM2_STATES completed successfully
+(process:57845): libfprint-SSM-DEBUG: 20:11:18.466: [vfs0050] SSM_STATES entering state 11
+(process:57845): libfprint-SSM-DEBUG: 20:11:18.867: [vfs0050] SSM_STATES entering state 5
+(process:57845): libfprint-SSM-DEBUG: 20:11:18.867: [vfs0050] SUBSM2_STATES entering state 0
+(process:57845): libfprint-SSM-DEBUG: 20:11:18.868: [vfs0050] SUBSM2_STATES entering state 1
+(process:57845): libfprint-SSM-DEBUG: 20:11:18.869: [vfs0050] SUBSM2_STATES entering state 2
+(process:57845): libfprint-SSM-DEBUG: 20:11:18.870: [vfs0050] SUBSM2_STATES entering state 3
+(process:57845): libfprint-SSM-DEBUG: 20:11:18.872: [vfs0050] SUBSM2_STATES entering state 4
+(process:57845): libfprint-SSM-DEBUG: 20:11:18.876: [vfs0050] SUBSM2_STATES entering state 5
+(process:57845): libfprint-SSM-DEBUG: 20:11:18.897: [vfs0050] SUBSM2_STATES entering state 6
+(process:57845): libfprint-SSM-DEBUG: 20:11:18.897: [vfs0050] SUBSM2_STATES completed successfully
+(process:57845): libfprint-SSM-DEBUG: 20:11:18.898: [vfs0050] SSM_STATES entering state 6
+(process:57845): libfprint-SSM-DEBUG: 20:11:18.898: [vfs0050] SSM_STATES entering state 7
